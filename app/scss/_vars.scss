@@ -1,0 +1,22 @@
+$default: #222059;
+$btn: #22f2dd;
+
+%ubuntu-700 {
+  font-family: 'Ubuntu-Bold', sans-serif;
+  font-weight: 700;
+}
+%ubuntu-500 {
+  font-family: 'Ubuntu-Medium', sans-serif;
+  font-weight: 500;
+}
+%ubuntu-400 {
+  font-family: 'Ubuntu-Regular', sans-serif;
+  font-weight: 400;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}

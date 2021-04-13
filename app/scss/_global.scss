@@ -1,0 +1,22 @@
+body{
+  @extend %ubuntu-400;
+  font-size: 18px;
+  line-height: 26px;
+  color: $default;
+}
+
+a {
+  color: $default;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.container{
+  max-width: 1545px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.title{
+  font-size: 60px;
+  line-height: 72px;
+}
